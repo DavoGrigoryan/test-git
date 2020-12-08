@@ -13,7 +13,7 @@ class Route
                 $this->controller=$url[0];
                 unset($url[0]);
             }else{
-                echo '<div style="background-color:silver;padding: 10px">not found file '.$url[0].'</div>';
+                echo '<div style="background-color:red;padding: 10px">not found file '.$url[0].'</div>';
             }
 
         }
