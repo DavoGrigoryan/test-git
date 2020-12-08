@@ -29,6 +29,7 @@ class Route
             $url=explode('/',$url);
 
             return $url;
+//            return $url;
         }
     }
 }
